@@ -2,7 +2,7 @@
 
 This repo contains end-user documentation for the Flexmonster UI.
 
-The pages are the same ones published in the [Flexmonster user guide](https://www.flexmonster.com/user-guide/intro), converted to plain markdown so you can bring them into your own product's documentation.
+The pages are the same ones published in the [Flexmonster user guide](https://prerelease.flexmonster.com/user-guide/intro), converted to plain markdown so you can bring them into your own product's documentation.
 
 You can use them in two ways:
 
@@ -27,10 +27,10 @@ You can use them in two ways:
 1. Clone the repository, or download it as a ZIP:
 
    ```bash
-   git clone https://github.com/flexmonster/flexmonster-user-guides.git
+   git clone https://github.com/flexmonster/flexmonster-v3-user-guides.git
    ```
 
-2. Copy the `user-guide/` folder into your documentation project. Keep the `assets/` folder next to the pages: every image, video, and icon is linked with a relative path, so the folder works wherever you put it.
+2. Copy the pages, their folders, and the `assets/` folder into your documentation project. Keep the same structure: every image, video, and icon is linked with a relative path, so the pages work wherever you put them.
 
 3. Add the pages to your docs tool's navigation.
 
@@ -49,8 +49,8 @@ If yours uses a different key for the URL, rename `permalink` or remove it.
 
 This repository is synced automatically from the Flexmonster documentation. Each sync is a separate commit, which makes it easy to see what changed.
 
-- If you copied the pages as they are, copy the folder again to pick up the updates.
-- If you adapted the pages, compare the new commits against the version you started from (`git diff <old-commit> <new-commit> -- user-guide/`) and apply the relevant changes to your copy by hand.
+- If you copied the pages as they are, copy them again to pick up the updates.
+- If you adapted the pages, compare the new commits against the version you started from (`git diff <old-commit> <new-commit>`) and apply the relevant changes to your copy by hand.
 
 ## Questions and feedback
 
