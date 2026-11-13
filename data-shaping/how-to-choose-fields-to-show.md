@@ -41,7 +41,7 @@ Measures are shown in the **Columns** box by default. To display them in the row
 
 **Step 1.** Open the field list if necessary.
 
-**Step 2.** Сhange the order of fields within the **Rows**, **Columns**, or **Values** areas by dragging them up or down.
+**Step 2.** Change the order of fields within the **Rows**, **Columns**, or **Values** areas by dragging them up or down.
 
 **Step 3.** Select **Apply** in the field list.
 
